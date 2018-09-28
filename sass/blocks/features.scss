@@ -1,0 +1,37 @@
+.features {
+  @include container;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  min-height: 509px;
+  padding-right: 80px;
+  border-bottom: 2px solid #eeeeee;
+
+  &__item {
+    width: 300px;
+    padding: 80px 0;
+  }
+  &__subtitle {
+    margin: 0;
+    padding-top: 22px;
+
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__text {
+    margin: 0;
+    padding-top: 16px;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #283136;
+  }
+  &__link {
+    margin-top: 32px;
+  }
+}

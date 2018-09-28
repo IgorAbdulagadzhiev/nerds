@@ -1,0 +1,55 @@
+.btn {
+  display: block;
+  text-align: center;
+  padding: 16px 0;
+
+  font: inherit;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  border-radius: 3px;
+  &:focus {
+    color: rgba($color: #ffffff, $alpha: 0.5);
+    box-shadow: inset 0 3px 0 0 rgba($color: #000000, $alpha: 0.2);
+  }
+  &--small {
+    width: 160px;
+  }
+  &--medium {
+    width: 220px;
+  }
+  &--big {
+    width: 240px;
+  }
+  &--red {
+    background-color: #fb565a;
+    &:hover {
+      background-color: #e74246;
+    }
+    &:focus {
+      background-color: #e74246;
+    }
+  }
+  &--green {
+    background-color: #00ca74;
+    &:hover {
+      background-color: #00bc6c;
+    }
+    &:focus {
+      background-color: #00aa62;
+    }
+  }
+  &--yellow {
+    background-color: #efc84a;
+    &:hover {
+      background-color: #eab534;
+    }
+    &:focus {
+      background-color: #e5a722;
+    }
+  }
+
+}

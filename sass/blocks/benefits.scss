@@ -1,0 +1,107 @@
+.benefits {
+  @include container;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  min-height: 525px;
+  padding-top: 38px;
+  padding-bottom: 50px;
+
+  border-bottom: 2px solid #eeeeee;
+
+  &__about {
+    padding-top: 32px;
+    width: 660px;
+  }
+  &__title {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+    color: #000;
+  }
+  &__text {
+    margin: 0;
+    padding: 0;
+    padding-top: 35px;
+    
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #283136;
+  }
+  &__list-title {
+    padding: 0;
+    padding-top: 40px;
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  &__item {
+    position: relative;
+    padding-left: 35px;
+    padding-top: 23px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 35px;
+      display: block;
+      width: 25px;
+      height: 2px;
+      background-color: #fb565a;
+    }
+  }
+  &__statistics {
+    width: 360px;
+  }
+  &__subtitle {
+    margin: 32px 0;
+    padding-left: 17px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__table {
+    margin-top: 39px;
+  }
+  &__th {
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 23px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 45px;
+    line-height: 46px;
+    font-weight: bold;
+  }
+  &__th span {
+    vertical-align: top;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  &__td {
+    padding-top: 9px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #283136;
+    font-weight: 400;
+  }
+}

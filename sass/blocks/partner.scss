@@ -1,0 +1,23 @@
+.partner {
+  @include container;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 45px 0;
+  margin-bottom: 77px;
+
+  border-bottom: 2px solid #eeeeee;
+
+  &__conteiner {
+    display: block;
+    opacity: 0.3;
+    &:hover {
+      opacity: 1;
+    }
+    &:focus {
+      opacity: 0.1;
+    }
+  }
+}
