@@ -82,6 +82,41 @@
     </div>
   </header>
   <main class="catalog-main">
+    <div class="catalog-container">
+      <section class="catalog-filter">
+        <form action="" method="GET">
+        <fieldset class="catalog-filter__item">
+          <legend>Стоимость:</legend>
+          <div class="catalog-filter__range">
+            <div class="catalog-filter__range-controls">
+              <div class="catalog-filter__scale">
+                <div class="catalog-filter__bar"></div>
+              </div>
+              <div class="catalog-filter__toggle catalog-filter__toggle--min"></div>
+              <div class="catalog-filter__toggle catalog-filter__toggle--max"></div>
+            </div>
+            <div class="catalog-filter__price-controls">
+              <label class="catalog-filter__min-price">от <input name="min-price" type="text" value="0"></label>
+              <label class="catalog-filter__max-price">до <input name="max-price" type="text" value="15000"></label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="catalog-filter__item">
+          <legend>Сетка:</legend>
+          <div class="catalog-filter__radio">
+            <label for="">Адаптивная<input type="radio"></label>
+            <label for="">Фиксированная<input type="radio"></label>
+            <label for="">Резиновая<input type="radio"></label>
+          </div>
+        </fieldset>
+        <fieldset class="catalog-filter__item"><legend>Особенности:</legend></fieldset>
+      </form>
+      </section>
+      <section class="catalog-list">
+        <p>lkajflkajlkfj</p>
+      </section>
+
+    </div>
     <section class="contacts">
       <h1 class="visually-hidden">Контактная информация</h1>
       <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad7b77d998a88b023df524b10a47320aa92614ff29cf1bccf3b90c675658d0dc5&amp;source=constructor"

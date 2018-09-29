@@ -1,0 +1,7 @@
+.catalog-container {
+  @include container;
+
+  display: flex;
+  justify-content: space-between;
+  height: 2230px;
+}

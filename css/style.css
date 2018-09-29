@@ -978,3 +978,95 @@ a {
   text-align: center;
   font-size: 55px;
   line-height: 55px; }
+
+.catalog-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 2230px; }
+
+.catalog-filter {
+  width: 260px; }
+
+.catalog-filter__item {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+.catalog-filter__range {
+  width: 260px;
+  margin-top: 49px; }
+
+.catalog-filter__item legend {
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.catalog-filter__range-controls {
+  position: relative;
+  height: 80px;
+  margin-bottom: 15px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px; }
+
+.catalog-filter__scale {
+  height: 2px;
+  background: #d7dcde; }
+
+.catalog-filter__bar {
+  width: 70%;
+  height: 2px;
+  background: #00ca74; }
+
+.catalog-filter__toggle {
+  position: absolute;
+  top: 31px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 8px solid #ffffff;
+  background-color: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+  border-radius: 50%;
+  cursor: pointer; }
+  .catalog-filter__toggle--min {
+    left: 18px; }
+  .catalog-filter__toggle--max {
+    left: 160px; }
+
+.catalog-filter__price-controls {
+  font-size: 0; }
+
+.catalog-filter__price-controls label {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+.catalog-filter__price-controls input {
+  width: 70px;
+  padding: 8px 10px;
+  margin-left: 10px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #283136;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1; }
+
+.catalog-filter__max-price {
+  text-align: left; }
+
+.catalog-filter__radio input {
+  display: none; }
+
+.catalog-list {
+  width: 760px; }
