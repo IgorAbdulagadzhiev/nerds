@@ -104,16 +104,94 @@
         <fieldset class="catalog-filter__item">
           <legend>Сетка:</legend>
           <div class="catalog-filter__radio">
-            <label for="">Адаптивная<input type="radio"></label>
-            <label for="">Фиксированная<input type="radio"></label>
-            <label for="">Резиновая<input type="radio"></label>
+            <label>Адаптивная<input type="radio" name="grid" checked></label>
+            <label>Фиксированная<input type="radio" name="grid"></label>
+            <label>Резиновая<input type="radio" name="grid"></label>
           </div>
         </fieldset>
-        <fieldset class="catalog-filter__item"><legend>Особенности:</legend></fieldset>
+        <fieldset class="catalog-filter__item">
+          <legend>Особенности:</legend>
+          <div class="catalog-filter__check">
+            <label >Слайдер<input type="checkbox"></label>
+            <label >Блок преймуществ<input type="checkbox"></label>
+            <label >Новости<input type="checkbox"></label>
+            <label >Галерея<input type="checkbox"></label>
+            <label >Корзина<input type="checkbox"></label>
+          </div>
+        </fieldset>
       </form>
       </section>
       <section class="catalog-list">
-        <p>lkajflkajlkfj</p>
+        <div class="catalog-list__sorting">
+          <p class="catalog-list__sorting-title">Сортировать:</p>
+          <div class="catalog-list__sorting-container">
+            <ul class="catalog-list__sorting-list">
+              <li class="catalog-list__sorting-item"><a href="#" class="catalog-list__sorting-link catalog-list__sorting-link--active">По цене</a></li>
+              <li class="catalog-list__sorting-item"><a href="#" class="catalog-list__sorting-link">по типу</a></li>
+              <li class="catalog-list__sorting-item"><a href="#" class="catalog-list__sorting-link">по названию</a></li>
+            </ul>
+            <div class="catalog-list__sorting-controls">
+              <a href="#" class="catalog-list__icon-down"></a>
+              <a href="#" class="catalog-list__icon-up"></a>
+            </div>
+          </div>
+        </div>
+        <div class="catalog-list__cards">
+          <div class="catalog-list__card">
+            <div class="catalog-list__card-header">
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+            </div>
+            <img src="img/cards/img-aplus.jpg" alt="text" width="360" height="576">
+          </div>
+          <div class="catalog-list__card">
+            <div class="catalog-list__card-header">
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+            </div>
+            <img src="img/cards/img-barbershop.jpg" alt="text" width="360" height="576">
+          </div>
+          <div class="catalog-list__card">
+            <div class="catalog-list__card-header">
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+            </div>
+            <img src="img/cards/img-kvast.jpg" alt="text" width="360" height="576">
+          </div>
+          <div class="catalog-list__card">
+            <div class="catalog-list__card-header">
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+            </div>
+            <img src="img/cards/img-sedona.jpg" alt="text" width="360" height="576">
+          </div>
+          <div class="catalog-list__card">
+            <div class="catalog-list__card-header">
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+            </div>
+            <img src="img/cards/img-mishka.jpg" alt="text" width="360" height="576">
+          </div>
+          <div class="catalog-list__card">
+            <div class="catalog-list__card-header">
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+              <span class="catalog-list__card-circle"></span>
+            </div>
+            <img src="img/cards/img-pink.jpg" alt="text" width="360" height="576">
+          </div>
+        </div>
+        <ul class="pagination">
+          <li class="pagination__item"><p href="#" class="pagination__link pagination__link--active">1</p></li>
+          <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link">3</a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link pagination__link--next">следующая</a></li>
+        </ul>
       </section>
 
     </div>
