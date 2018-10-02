@@ -104,21 +104,59 @@
         <fieldset class="catalog-filter__item">
           <legend>Сетка:</legend>
           <div class="catalog-filter__radio">
-           <p><input type="radio" name="grid" id="adapt" checked><label for="adapt">Адаптивная</label></p>
-           <p><input type="radio" name="grid" id="fix"><label for="fix">Фиксированная</label></p>
-           <p><input type="radio" name="grid" id="rubber"><label for="rubber">Резиновая</label></p>
+           <p>
+             <label>
+             <input type="radio" name="grid" class="visually-hidden" checked>Адаптивная
+             <span class="catalog-filter__radio-indicator"></span>
+            </label>
+          </p>
+          <p>
+              <label>
+              <input type="radio" name="grid" class="visually-hidden">Фиксированная
+              <span class="catalog-filter__radio-indicator"></span>
+             </label>
+           </p>
+           <p>
+              <label>
+              <input type="radio" name="grid" class="visually-hidden">Резиновая
+              <span class="catalog-filter__radio-indicator"></span>
+             </label>
+           </p>
           </div>
         </fieldset>
         <fieldset class="catalog-filter__item">
           <legend>Особенности:</legend>
           <div class="catalog-filter__check">
-            <p><input type="checkbox" id="slider" checked><label for="slider"><span class="catalog-filter__checkbox-indicator"></span> Слайдер</label></p>
-            <p><input type="checkbox" id="block"><label for="block"><span class="catalog-filter__checkbox-indicator"></span> Блок преймуществ</label></p>
-            <p><input type="checkbox" id="news"><label for="news"><span class="catalog-filter__checkbox-indicator"></span> Новости</label></p>
-            <p><input type="checkbox" id="gallery"><label for="gallery"><span class="catalog-filter__checkbox-indicator"></span> Галерея</label></p>
-            <p><input type="checkbox" id="basket"><label for="basket"><span class="catalog-filter__checkbox-indicator"></span> Корзина</label></p>
+            <p>
+              <label>
+                <input type="checkbox" class="visually-hidden" checked><span class="catalog-filter__checkbox-indicator"></span>Слайдер
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" class="visually-hidden"><span class="catalog-filter__checkbox-indicator"></span>Блок преймуществ
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" class="visually-hidden"><span class="catalog-filter__checkbox-indicator"></span>Новости
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" class="visually-hidden"><span class="catalog-filter__checkbox-indicator"></span>Галерея
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" class="visually-hidden"><span class="catalog-filter__checkbox-indicator"></span>Корзина
+              </label>
+            </p>
           </div>
         </fieldset>
+        <button class="catalog-filter__btn">
+          показать
+        </button>
       </form>
       </section>
       <section class="catalog-list">
@@ -144,6 +182,11 @@
               <span class="catalog-list__card-circle"></span>
             </div>
             <img src="img/cards/img-aplus.jpg" alt="text" width="360" height="576">
+            <div class="catalog-list__card-hover">
+              <p class="catalog-list__card-title">A plus</p>
+              <p class="catalog-list__card-text">Лендинг курсов повышения <br>квалификации</p>
+              <a href="#" class="catalog-list__card-link btn btn--card btn--red">9 900 руб.</a>
+            </div>
           </div>
           <div class="catalog-list__card">
             <div class="catalog-list__card-header">
@@ -152,6 +195,11 @@
               <span class="catalog-list__card-circle"></span>
             </div>
             <img src="img/cards/img-barbershop.jpg" alt="text" width="360" height="576">
+            <div class="catalog-list__card-hover">
+              <p class="catalog-list__card-title">Barbershop</p>
+              <p class="catalog-list__card-text">Сайт салона красоты. <br>Для мужчин, да.</p>
+              <a href="#" class="catalog-list__card-link btn btn--card btn--red">9 900 руб.</a>
+            </div>
           </div>
           <div class="catalog-list__card">
             <div class="catalog-list__card-header">
@@ -160,6 +208,11 @@
               <span class="catalog-list__card-circle"></span>
             </div>
             <img src="img/cards/img-kvast.jpg" alt="text" width="360" height="576">
+            <div class="catalog-list__card-hover">
+              <p class="catalog-list__card-title">КВАСТ</p>
+              <p class="catalog-list__card-text">Промо-сайт производителя<br>крафтового кваса</p>
+              <a href="#" class="catalog-list__card-link btn btn--card btn--red">9 900 руб.</a>
+            </div>
           </div>
           <div class="catalog-list__card">
             <div class="catalog-list__card-header">
@@ -168,6 +221,11 @@
               <span class="catalog-list__card-circle"></span>
             </div>
             <img src="img/cards/img-sedona.jpg" alt="text" width="360" height="576">
+            <div class="catalog-list__card-hover">
+              <p class="catalog-list__card-title">Sedona</p>
+              <p class="catalog-list__card-text">Информационный сайт<br>для туристов</p>
+              <a href="#" class="catalog-list__card-link btn btn--card btn--red">9 900 руб.</a>
+            </div>
           </div>
           <div class="catalog-list__card">
             <div class="catalog-list__card-header">
@@ -176,6 +234,11 @@
               <span class="catalog-list__card-circle"></span>
             </div>
             <img src="img/cards/img-mishka.jpg" alt="text" width="360" height="576">
+            <div class="catalog-list__card-hover">
+              <p class="catalog-list__card-title">Mishka</p>
+              <p class="catalog-list__card-text">Интернет-магазин<br>вязаных игрушек</p>
+              <a href="#" class="catalog-list__card-link btn btn--card btn--red">9 900 руб.</a>
+            </div>
           </div>
           <div class="catalog-list__card">
             <div class="catalog-list__card-header">
@@ -184,6 +247,11 @@
               <span class="catalog-list__card-circle"></span>
             </div>
             <img src="img/cards/img-pink.jpg" alt="text" width="360" height="576">
+            <div class="catalog-list__card-hover">
+              <p class="catalog-list__card-title">pink app</p>
+              <p class="catalog-list__card-text">Продуктовый лендинг<br>приложения для iOS и Android</p>
+              <a href="#" class="catalog-list__card-link btn btn--card btn--red">9 900 руб.</a>
+            </div>
           </div>
         </div>
         <ul class="pagination">
