@@ -108,10 +108,13 @@
 
   background-color: #eeeeee;
 
+  transition-duration: 1s;
+
   display: none;
 }
 .catalog-list__card:hover .catalog-list__card-hover {
   display: flex;
+  
 }
 .catalog-list__card-title {
   margin: 0;

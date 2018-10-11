@@ -416,8 +416,13 @@ a {
     width: 440px;
     list-style: none; }
   .main-nav__link {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 30px;
     padding-bottom: 10px;
-    color: #000; }
+    color: #000;
+    transition-duration: 0.6s; }
     .main-nav__link:hover {
       color: #fb565a; }
     .main-nav__link:focus {
@@ -431,7 +436,8 @@ a {
     padding-top: 25px;
     padding-bottom: 4px;
     margin: 0;
-    color: #000; }
+    color: #000;
+    transition-duration: 0.6s; }
     .main-nav__cart::before {
       content: "";
       position: absolute;
@@ -608,12 +614,13 @@ a {
   padding: 45px 0;
   margin-bottom: 77px;
   border-bottom: 2px solid #eeeeee; }
-  .partner__conteiner {
+  .partner__container {
     display: block;
-    opacity: 0.3; }
-    .partner__conteiner:hover {
+    opacity: 0.3;
+    transition-duration: 0.6s; }
+    .partner__container:hover {
       opacity: 1; }
-    .partner__conteiner:focus {
+    .partner__container:focus {
       opacity: 0.1; }
 
 .contacts {
@@ -758,9 +765,13 @@ a {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 3px; }
+  .btn:hover {
+    transition-duration: 0.6s;
+    transition-timing-function: ease; }
   .btn:focus {
     color: rgba(255, 255, 255, 0.5);
-    box-shadow: inset 0 3px 0 0 rgba(0, 0, 0, 0.2); }
+    box-shadow: inset 0 3px 0 0 rgba(0, 0, 0, 0.2);
+    transition-duration: 0.1s; }
   .btn--small {
     width: 160px; }
   .btn--medium {
@@ -810,7 +821,8 @@ a {
     height: 80px;
     background-color: #000;
     opacity: 0.1;
-    border-radius: 50%; }
+    border-radius: 50%;
+    transition-duration: 0.6s; }
     .footer__socials-link:hover {
       opacity: 1;
       background-color: #e74246; }
@@ -1261,6 +1273,7 @@ a {
   width: 360px;
   height: 231px;
   background-color: #eeeeee;
+  transition-duration: 1s;
   display: none; }
 
 .catalog-list__card:hover .catalog-list__card-hover {
