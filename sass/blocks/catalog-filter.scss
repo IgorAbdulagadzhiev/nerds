@@ -63,11 +63,12 @@
   }
 }
 .catalog-filter__price-controls {
+  display: flex;
+  justify-content: space-between;
   font-size: 0;
 }
 .catalog-filter__price-controls label {
   display: inline-block;
-  width: 50%;
 
   font-size: 16px;
   text-transform: uppercase;
@@ -113,9 +114,9 @@
   height: 25px;
   border: 4px solid #b3b3b3;
   border-radius: 50%;
-}
-.catalog-filter__radio input {
- // display: none;
+  &:hover {
+    border-color: #4d4d4d;
+  }
 }
 .catalog-filter__radio input[type=radio]:checked + .catalog-filter__radio-indicator {
   &::after{
@@ -128,6 +129,11 @@
     height: 9px;
     background-color: #a6a6a6;
     border-radius: 50%;
+  }
+  &:hover {
+    &::after  {
+      background-color: #4d4d4d;
+    }
   }
 }
 .catalog-filter__radio input[type=radio]:focus + .catalog-filter__radio-indicator {
@@ -162,6 +168,11 @@
   height: 23px;
   border: 2px solid #b3b3b3;
   border-radius: 2px;
+  
+  &:hover {
+    border-color: #4d4d4d;
+
+  }
 }
 .catalog-filter__check input[type=checkbox]:checked ~ .catalog-filter__checkbox-indicator {
   &::after {
@@ -193,7 +204,14 @@
     transform: rotate(-45deg);
 
     background-color: #b3b3b3;
-    
+  }
+  &:hover {
+    &::after {
+      background-color: #4d4d4d;
+    }
+    &::before {
+      background-color: #4d4d4d;
+    }
   }
 }
 .catalog-filter__check input[type=checkbox]:focus ~ .catalog-filter__checkbox-indicator {
@@ -203,21 +221,6 @@
   outline-style: auto;
   outline-width: 5px;
 }
-.catalog-filter__check input {
-  //display: none;
-}
 .catalog-filter__btn {
   margin-top: 30px;
-  width: 260px;
-
-  font-size: 16px;
-  text-align: center;
-  text-decoration: none;
-  color: #000000;
-  line-height: 47px;
-  text-transform: uppercase;
-
-  background-color: #dbdbdb;
-  border: none;
-  border-radius: 3px;
 }

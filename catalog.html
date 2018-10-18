@@ -72,7 +72,7 @@
       <ul class="main-nav__list">
         <li class="main-nav__item"><a href="#" class="main-nav__link">Студия</a></li>
         <li class="main-nav__item"><a href="#" class="main-nav__link">Клиенты</a></li>
-        <li class="main-nav__item"><a href="#" class="main-nav__link main-nav__link--active">Магазин</a></li>
+        <li class="main-nav__item"><a href="#" class="main-nav__link main-nav__link--active">Магазин</a``></li>
         <li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
       </ul>
       <a href="#" class="main-nav__cart main-nav__cart--active">Корзина</a>
@@ -84,6 +84,7 @@
   <main class="catalog-main">
     <div class="catalog-container">
       <section class="catalog-filter">
+        <h2 class="visually-hidden">Фильтры</h2>
         <form action="" method="GET">
         <fieldset class="catalog-filter__item">
           <legend>Стоимость:</legend>
@@ -154,12 +155,13 @@
             </p>
           </div>
         </fieldset>
-        <button class="catalog-filter__btn">
+        <button class="btn btn--form btn--grey catalog-filter__btn">
           показать
         </button>
       </form>
       </section>
       <section class="catalog-list">
+        <h2 class="visually-hidden">Список сайтов</h2>
         <div class="catalog-list__sorting">
           <p class="catalog-list__sorting-title">Сортировать:</p>
           <div class="catalog-list__sorting-container">
@@ -264,7 +266,7 @@
 
     </div>
     <section class="contacts">
-      <h1 class="visually-hidden">Контактная информация</h1>
+      <h2 class="visually-hidden">Контактная информация</h2>
       <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad7b77d998a88b023df524b10a47320aa92614ff29cf1bccf3b90c675658d0dc5&amp;source=constructor"
         width="100%" height="416" frameborder="0"></iframe>
       <div class="contacts__wrapper">
@@ -320,6 +322,27 @@
       <p class="footer__text">Скидка 10% для друзей из социальных сетей.</p>
     </div>
   </footer>
+  <section class="popup popup--login">
+    <h2 class="popup__title">Напишите нам</h2>
+    <form class="popup__form" action="" method="POST">
+      <p class="popup__form-inner">
+        <label class="popup__form-label" for="user-name">Ваше имя:</label>
+        <input type="text" id="user-name" class="popup__form-input popup__form-input--name" name="name" placeholder="Имя Фамилия">
+      </p>
+      <p class="popup__form-inner">
+        <label class="popup__form-label" for="user-email">Ваш e-mail:</label>
+        <input type="text" id="user-email" class="popup__form-input popup__form-input--email" name="email" placeholder="email@example.com">
+      </p>
+      <p class="popup__form-inner">
+        <label class="popup__form-label" for="user-textarea">Текст письма:</label>
+        <textarea id="user-textarea" class="popup__form-textarea" name="textarea" id="popup__textarea" cols="30" rows="10" placeholder="Свободная форма"></textarea>
+      </p>
+      <button class="popup__form-btn btn btn--red btn--big" type="submit">Отправить</button>
+    </form>
+    <button class="popup__close" type="button">Закрыть</button>
+  </section>
+  <script src="js/main.js">
+  </script>
 </body>
 
 </html>

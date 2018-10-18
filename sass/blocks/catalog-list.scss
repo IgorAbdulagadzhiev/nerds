@@ -42,20 +42,44 @@
   &--active {
     color: #000000;
   }
+  &:hover {
+    color: #8d8d8d;
+  }
+  &:focus {
+    color: #000000;
+  }
 }
 .catalog-list__sorting-controls {
   width: 45px;
 }
 .catalog-list__icon-down {
-  color: #010101;
+  color: #ededed;
   &::before {
     content: '\25bc';
   }
+  &:hover {
+   color: #a6a6a6; 
+  }
+  &:focus {
+    color: #000000;
+  }
+  &--active {
+    color: #000000;
+  }
 }
 .catalog-list__icon-up {
-  color: #a6a6a6;
+  color: #ededed;
   &::before {
     content: '\25b2';
+  }
+  &:hover {
+    color: #a6a6a6; 
+   }
+   &:focus {
+    color: #000000;
+  }
+  &--active {
+    color: #000000;
   }
 }
 
