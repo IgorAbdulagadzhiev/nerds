@@ -10,12 +10,12 @@
   padding-bottom: 50px;
 
   border-bottom: 2px solid #eeeeee;
-
-  &__about {
+}
+  .benefits__about {
     padding-top: 32px;
     width: 660px;
   }
-  &__title {
+  .benefits__title {
     padding: 0;
     margin: 0;
     font-weight: 500;
@@ -23,7 +23,7 @@
     line-height: 45px;
     color: #000;
   }
-  &__text {
+  .benefits__text {
     margin: 0;
     padding: 0;
     padding-top: 35px;
@@ -33,7 +33,7 @@
     font-weight: 400;
     color: #283136;
   }
-  &__list-title {
+  .benefits__list-title {
     padding: 0;
     padding-top: 40px;
     margin: 0;
@@ -43,12 +43,12 @@
     font-weight: bold;
     text-transform: uppercase;
   }
-  &__list {
+  .benefits__list {
     margin: 0;
     padding: 0;
     list-style: none;
   }
-  &__item {
+  .benefits__item {
     position: relative;
     padding-left: 35px;
     padding-top: 23px;
@@ -68,10 +68,10 @@
       background-color: #fb565a;
     }
   }
-  &__statistics {
+  .benefits__statistics {
     width: 360px;
   }
-  &__subtitle {
+  .benefits__subtitle {
     margin: 32px 0;
     padding-left: 17px;
     font-size: 16px;
@@ -79,10 +79,10 @@
     font-weight: bold;
     text-transform: uppercase;
   }
-  &__table {
+  .benefits__table {
     margin-top: 39px;
   }
-  &__th {
+  .benefits__th {
     padding-bottom: 10px;
     padding-left: 0;
     padding-right: 23px;
@@ -92,16 +92,15 @@
     line-height: 46px;
     font-weight: bold;
   }
-  &__th span {
+  .benefits__th span {
     vertical-align: top;
     font-size: 26px;
     line-height: 30px;
   }
-  &__td {
+  .benefits__td {
     padding-top: 9px;
     font-size: 16px;
     line-height: 18px;
     color: #283136;
     font-weight: 400;
   }
-}
