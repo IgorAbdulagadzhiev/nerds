@@ -13,7 +13,7 @@
     left: 50%;
     bottom: 96px;
     z-index: 9;
-    
+
     width: 120px;
     height: 18px;
 
@@ -21,11 +21,13 @@
     font-size: 0;
     transform: translateX(-50%);
   }
+
   &__list {
     margin: 0;
     padding: 0;
     list-style: none;
   }
+
   &__radio {
     position: relative;
 
@@ -59,6 +61,7 @@
 
       border-radius: 50%;
     }
+
     /*
     &--active {
       &::before {
@@ -79,6 +82,7 @@
       }
     }*/
   }
+
   &__item {
     @include container;
 
@@ -86,23 +90,27 @@
 
     min-height: 425px;
     background-color: #eeeeee;
+
     &--1 {
-      background-image: url("../img/slide1.png");
+      background-image: url('../img/slide1.png');
       background-repeat: no-repeat;
       background-position: 90% bottom;
       right: 50px;
     }
+
     &--2 {
-      background-image: url("../img/slide2.png");
+      background-image: url('../img/slide2.png');
       background-repeat: no-repeat;
       background-position: 90% bottom;
     }
+
     &--3 {
-      background-image: url("../img/slide3.png");
+      background-image: url('../img/slide3.png');
       background-repeat: no-repeat;
       background-position: 90% bottom;
     }
   }
+
   &__title {
     padding: 0;
     padding-top: 72px;
@@ -111,6 +119,7 @@
     font-size: 55px;
     line-height: 55px;
   }
+
   &__text {
     padding: 0;
     padding-top: 27px;
@@ -118,24 +127,29 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    
+
     color: #283136;
   }
+
   &__link {
     margin-top: 40px;
   }
-  #product-1:checked ~ &__list &__item--1 {
+
+  #product-1:checked~&__list &__item--1 {
     display: block;
   }
-  #product-2:checked ~ &__list &__item--2 {
+
+  #product-2:checked~&__list &__item--2 {
     display: block;
   }
-  #product-3:checked ~ &__list &__item--3 {
+
+  #product-3:checked~&__list &__item--3 {
     display: block;
   }
-  #product-1:checked ~ &__controls &__radio--1,
-  #product-2:checked ~ &__controls &__radio--2,
-  #product-3:checked ~ &__controls &__radio--3 {
+
+  #product-1:checked~&__controls &__radio--1,
+  #product-2:checked~&__controls &__radio--2,
+  #product-3:checked~&__controls &__radio--3 {
     &::before {
       content: "";
 

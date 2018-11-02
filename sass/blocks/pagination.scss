@@ -8,35 +8,40 @@
 
   list-style: none;
 }
+
 .pagination__link {
   display: block;
   margin: 0;
   margin-right: 11px;
-  width: 47px;
-  
+  width: 50px;
+
   font-size: 16px;
   text-align: center;
   text-decoration: none;
   color: #000000;
-  line-height: 47px;
+  line-height: 44px;
   text-transform: uppercase;
-    
+
   background-color: #eeeeee;
   color: #000000;
   border: 3px solid #eeeeee;
   border-radius: 3px;
+
   &:hover {
     background-color: #dfdfdf;
     border: 3px solid #dfdfdf;
   }
+
   &:focus {
     color: rgba($color: #000000, $alpha: 0.5);
     background-color: #d5d5d5;
     border: 3px solid #d5d5d5;
   }
+
   &--active {
     background-color: #ffffff;
   }
+
   &--next {
     width: 260px;
   }

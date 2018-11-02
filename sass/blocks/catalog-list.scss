@@ -1,6 +1,7 @@
 .catalog-list {
   width: 760px;
 }
+
 .catalog-list__sorting {
   display: flex;
   flex-direction: row;
@@ -8,6 +9,7 @@
 
   padding-top: 60px;
 }
+
 .catalog-list__sorting-title {
   margin: 0;
   font-size: 18px;
@@ -15,6 +17,7 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+
 .catalog-list__sorting-container {
   display: flex;
   flex-direction: row;
@@ -22,6 +25,7 @@
 
   width: 360px;
 }
+
 .catalog-list__sorting-list {
   display: flex;
   flex-direction: row;
@@ -33,51 +37,66 @@
   width: 300px;
 
 }
+
 .catalog-list__sorting-link {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
   text-decoration: none;
   color: #cacaca;
+
   &--active {
     color: #000000;
   }
+
   &:hover {
     color: #8d8d8d;
   }
+
   &:focus {
     color: #000000;
   }
 }
+
 .catalog-list__sorting-controls {
   width: 45px;
 }
+
 .catalog-list__icon-down {
   color: #ededed;
+
   &::before {
     content: '\25bc';
   }
+
   &:hover {
-   color: #a6a6a6; 
+    color: #a6a6a6;
   }
+
   &:focus {
     color: #000000;
   }
+
   &--active {
     color: #000000;
   }
 }
+
 .catalog-list__icon-up {
   color: #ededed;
+
   &::before {
     content: '\25b2';
   }
+
   &:hover {
-    color: #a6a6a6; 
-   }
-   &:focus {
+    color: #a6a6a6;
+  }
+
+  &:focus {
     color: #000000;
   }
+
   &--active {
     color: #000000;
   }
@@ -89,6 +108,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .catalog-list__card {
   position: relative;
 
@@ -98,6 +118,7 @@
 
   cursor: pointer;
 }
+
 .catalog-list__card-header {
 
   position: relative;
@@ -108,9 +129,11 @@
   background-color: #e9e9e9;
   border-radius: 5px 5px 0 0;
 }
-.catalog-list__card:hover  .catalog-list__card-header {
+
+.catalog-list__card:hover .catalog-list__card-header {
   background-color: #4d4d4d;
 }
+
 .catalog-list__card-circle {
   display: inline-block;
   width: 15px;
@@ -120,6 +143,7 @@
   background-color: #ffffff;
   border-radius: 50%;
 }
+
 .catalog-list__card-hover {
   position: absolute;
   display: flex;
@@ -128,7 +152,7 @@
   align-items: center;
   left: 0;
   bottom: 0;
-   
+
   width: 360px;
 
   background-color: #eeeeee;
@@ -137,10 +161,12 @@
 
   display: none;
 }
+
 .catalog-list__card:hover .catalog-list__card-hover {
   display: flex;
-  
+
 }
+
 .catalog-list__card-title {
   margin: 0;
 
@@ -150,11 +176,13 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .catalog-list__card-title a {
   text-decoration: none;
-  
+
   color: #000000;
 }
+
 .catalog-list__card-text {
   margin: 0;
 
@@ -164,6 +192,7 @@
   text-align: center;
   color: #666666;
 }
+
 .catalog-list__card-link {
   margin-top: 30px;
 }

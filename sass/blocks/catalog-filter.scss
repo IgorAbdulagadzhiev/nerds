@@ -1,16 +1,19 @@
 .catalog-filter {
   width: 260px;
 }
+
 .catalog-filter__item {
   margin: 0;
   padding: 0;
 
   border: none;
 }
+
 .catalog-filter__range {
   width: 260px;
   margin-top: 49px;
 }
+
 .catalog-filter__item legend {
   padding-top: 60px;
   font-size: 18px;
@@ -18,6 +21,7 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+
 .catalog-filter__range-controls {
   position: relative;
 
@@ -31,17 +35,20 @@
 
   border-radius: 5px;
 }
+
 .catalog-filter__scale {
   height: 2px;
 
   background: #d7dcde;
 }
+
 .catalog-filter__bar {
   width: 70%;
   height: 2px;
-  
+
   background: #00ca74;
 }
+
 .catalog-filter__toggle {
   position: absolute;
   top: 31px;
@@ -55,24 +62,29 @@
   box-shadow: 0 2px 1px 0 #cfcfcf;
   border-radius: 50%;
   cursor: pointer;
+
   &--min {
     left: 18px;
   }
+
   &--max {
     left: 160px;
   }
 }
+
 .catalog-filter__price-controls {
   display: flex;
   justify-content: space-between;
   font-size: 0;
 }
+
 .catalog-filter__price-controls label {
   display: inline-block;
 
   font-size: 16px;
   text-transform: uppercase;
 }
+
 .catalog-filter__price-controls input {
   width: 80px;
   padding: 8px 10px;
@@ -87,12 +99,15 @@
   border-radius: 5px;
   background: #f1f1f1;
 }
+
 .catalog-filter__max-price {
   text-align: left;
 }
+
 .catalog-filter__radio p {
   display: block;
 }
+
 .catalog-filter__radio label {
   position: relative;
   padding-left: 35px;
@@ -104,6 +119,7 @@
 
   cursor: pointer;
 }
+
 .catalog-filter__radio-indicator {
   position: absolute;
   display: block;
@@ -114,12 +130,14 @@
   height: 25px;
   border: 4px solid #b3b3b3;
   border-radius: 50%;
+
   &:hover {
     border-color: #4d4d4d;
   }
 }
-.catalog-filter__radio input[type=radio]:checked + .catalog-filter__radio-indicator {
-  &::after{
+
+.catalog-filter__radio input[type=radio]:checked+.catalog-filter__radio-indicator {
+  &::after {
     content: "";
     position: absolute;
     display: block;
@@ -130,22 +148,26 @@
     background-color: #a6a6a6;
     border-radius: 50%;
   }
+
   &:hover {
-    &::after  {
+    &::after {
       background-color: #4d4d4d;
     }
   }
 }
-.catalog-filter__radio input[type=radio]:focus + .catalog-filter__radio-indicator {
+
+.catalog-filter__radio input[type=radio]:focus+.catalog-filter__radio-indicator {
 
   outline-color: rgb(77, 144, 254); // #4D90FE
   outline-offset: -2px;
   outline-style: auto;
   outline-width: 5px;
 }
+
 .catalog-filter__check p {
   display: block;
 }
+
 .catalog-filter__check label {
   position: relative;
 
@@ -155,9 +177,10 @@
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
   color: #283136;
-  
+
   cursor: pointer;
 }
+
 .catalog-filter__checkbox-indicator {
   position: absolute;
   display: block;
@@ -168,31 +191,33 @@
   height: 23px;
   border: 2px solid #b3b3b3;
   border-radius: 2px;
-  
+
   &:hover {
     border-color: #4d4d4d;
 
   }
 }
-.catalog-filter__check input[type=checkbox]:checked ~ .catalog-filter__checkbox-indicator {
+
+.catalog-filter__check input[type=checkbox]:checked~.catalog-filter__checkbox-indicator {
   &::after {
     content: "";
-    
+
     position: absolute;
-    
+
     top: 7px;
     left: 4px;
 
     width: 7px;
     height: 3px;
-    
+
     transform: rotate(45deg);
 
     background-color: #b3b3b3;
   }
+
   &::before {
     content: "";
-    
+
     position: absolute;
 
     top: 5px;
@@ -205,22 +230,26 @@
 
     background-color: #b3b3b3;
   }
+
   &:hover {
     &::after {
       background-color: #4d4d4d;
     }
+
     &::before {
       background-color: #4d4d4d;
     }
   }
 }
-.catalog-filter__check input[type=checkbox]:focus ~ .catalog-filter__checkbox-indicator {
+
+.catalog-filter__check input[type=checkbox]:focus~.catalog-filter__checkbox-indicator {
 
   outline-color: rgb(77, 144, 254); // #4D90FE
   outline-offset: -2px;
   outline-style: auto;
   outline-width: 5px;
 }
+
 .catalog-filter__btn {
   margin-top: 30px;
 }

@@ -2,13 +2,14 @@
   position: relative;
   height: 416px;
 
-  background-image: url("../../img/map.jpg");
+  background-image: url('../../img/map.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
   &__wrapper {
     @include container;
   }
+
   &__aside {
     z-index: 2;
     position: absolute;
@@ -19,9 +20,10 @@
 
     padding-top: 30px;
     padding-left: 50px;
-    
+
     background-color: #fff;
   }
+
   &__title {
     font-weight: bold;
     text-transform: uppercase;
@@ -29,6 +31,7 @@
     line-height: 30px;
     color: #000;
   }
+
   &__adress {
     padding-top: 5px;
     padding-left: 2px;
@@ -37,6 +40,7 @@
     line-height: 18px;
     color: #666666;
   }
+
   &__number {
     padding-top: 2px;
     padding-left: 2px;
@@ -45,6 +49,7 @@
     line-height: 18px;
     color: #666666;
   }
+
   &__link {
     margin-top: 36px;
   }

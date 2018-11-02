@@ -14,9 +14,11 @@
     display: block;
     opacity: 0.3;
     transition-duration: 0.6s;
+
     &:hover {
       opacity: 1;
     }
+
     &:focus {
       opacity: 0.1;
     }
